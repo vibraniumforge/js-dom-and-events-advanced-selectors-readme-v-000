@@ -3,18 +3,24 @@ function paragraphSelector() {
   $("p");
 }
 
-function lastImageSelector () {
+function lastImageSelector() {
   $("img:last")
 }
 
-function ninjaBabySelector () {
+function ninjaBabySelector() {
   return $(#"baby-ninja");
 }
 
-function divSelector () {
+function divSelector() {
   return $(".pics");
 }
 
-function firstListItem () {
+function firstListItem() {
   return $("#pic-list ul li:first-child")
 }
+
+paragraphSelector();
+lastImageSelector();
+ninjaBabySelector();
+divSelector();
+firstListItem();
