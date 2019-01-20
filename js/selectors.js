@@ -1,4 +1,13 @@
 // declare your functions here...
+
+$(document).ready(function() {
+  paragraphSelector();
+  lastImageSelector();
+  ninjaBabySelector();
+  divSelector();
+  firstListItem();
+});
+
 function paragraphSelector() {
   $("p");
 }
@@ -18,9 +27,3 @@ function divSelector() {
 function firstListItem() {
   $("#pic-list ul li:first-child")
 }
-
-paragraphSelector();
-lastImageSelector();
-ninjaBabySelector();
-divSelector();
-firstListItem();
