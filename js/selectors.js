@@ -8,15 +8,15 @@ function lastImageSelector() {
 }
 
 function ninjaBabySelector() {
-  return $("#baby-ninja");
+  $("#baby-ninja");
 }
 
 function divSelector() {
-  return $(".pics");
+  $(".pics");
 }
 
 function firstListItem() {
-  return $("#pic-list ul li:first-child")
+  $("#pic-list ul li:first-child")
 }
 
 paragraphSelector();
